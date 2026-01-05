@@ -165,7 +165,7 @@ nav .manu a {
 #resume .resume-cotainar{
     width: 71%;
     max-width: 1140px;
-    margin: 113px auto 0;
+    margin: 115px auto 0;
     display: flex; 
     gap: 24px;
 }
@@ -199,3 +199,42 @@ nav .manu a {
  #resume .resume-cotainar hr{
     margin: 30px;
 } 
+.text-center{
+    text-align: center;
+}
+footer{
+    margin-top: 130px;
+    background-color: #fff8f3;
+    padding: 130px;
+}
+
+.footer-containar{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap:116px ;
+}
+.footer-containar .social{
+    max-width: 562px;
+}
+.footer-containar .social p{
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-containar h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom:20px ;
+}
+.footer-containar .icon a{
+    margin:24px ;
+}
+.footer-containar form input [type="text"]{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
