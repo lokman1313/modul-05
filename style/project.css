@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* sheard style */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* main style */
+header{
+    background-color: #FFF8F3;
+    
+}
+nav{
+    width: 71%;
+    max-width: 1150px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .manu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    
+}
+nav .manu a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn{
+    border: none;
+    background-color: #FD6E0A;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+.logo h2{
+    font-size: 45px;
+    font-weight:bolder;
+
+}
+.color-orenge{
+    color:#FD6E0A;
+}
