@@ -47,6 +47,14 @@ nav .manu a {
   font-weight: bold;
   color: white;
 }
+.btn-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.btn:hover{
+  background-color: #0661d87c;
+}
 .section-heading {
   max-width: 827px;
   text-align: center;
@@ -140,7 +148,7 @@ nav .manu a {
 .skill-box .skill-card{
     padding: 30px;
     /* border: 1px solid black; */
-    max-width: 267px;
+    max-width: 300px;
     box-shadow: 0 6px 50px 0 #00000031;
 
 }
@@ -198,7 +206,7 @@ nav .manu a {
     color: #757575;
 }
  #resume .resume-cotainar hr{
-    margin: 30px;
+    margin: 30px auto;
 } 
 .text-center{
     text-align: center;
@@ -247,4 +255,87 @@ footer{
     border: none;
     border-radius: 5px;
     color: #757575;
+}
+.hide{
+  display: none !important;
+}
+@media screen and (max-width:576px) {
+  nav{
+    gap: 20px;
+  }
+  nav .manu{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #banner{
+    margin: 20px;
+    gap: 20px;
+    text-align: center;
+  }
+  #banner .banner-imge img{
+    max-width:100%;
+  }
+  #banner .banner-content h1{
+    font-size: 50px;
+  }
+  .btn-group{
+    justify-content: center;
+  }
+  header {
+  background: url(../images/header_bg.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+  #about,
+  #skills,
+  #resume{
+    padding-top: 60px;
+  }
+  #skills .skills-containar {
+  max-width: 95%;
+}
+.skill-box, .about-info, nav, #banner {
+ flex-direction: column;
+}
+.skill-card{
+  max-width:100%;
+}
+#about .about-containar{
+  padding: 20px;
+}
+.about-info {
+ gap: 10px;
+}
+.about-info h4 {
+  font-size: 100%;
+}
+.footer-containar{
+  flex-direction: column;
+  max-width: 100%; 
+  gap:10px ;
+  margin: 6px;
+  padding: 10px;
+  
+}
+.footer-containar form input[type="text"] {
+    width: 100%;
+}
+.footer-containar form input[type="email"] {
+    width: 100%;
+}
+footer{
+    margin-top:10px;
+    background-color: #fff8f3;
+    padding: 0px;
+}
+#resume .resume-cotainar{
+  flex-direction: column;
+  margin-top: 60px;
+}
+.resume-card{
+    max-width: 100%;
+    margin-right: 4px;
+}
+
 }
